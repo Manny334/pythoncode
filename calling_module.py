@@ -1,9 +1,7 @@
-import mymodule
-from mymodule import person1
-mymodule.greeting("Manish")  # syntax for using a function from a module, use
-                             # module_name.function_name
+def main(x, l=[]):
+    for i in range(x):
+        l.append(i*i)
+    print(l)
 
-a = mymodule.person1["age"]
-print(a)
-
-print(person1["age"])
+if __name__ = "__main__":
+    main(3)
